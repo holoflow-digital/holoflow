@@ -1,0 +1,27 @@
+# Project-related settings
+PROJECT_NAME           = "@CMAKE_PROJECT_NAME@"
+PROJECT_BRIEF          = "@CMAKE_PROJECT_DESCRIPTION@"
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@
+GENERATE_HTML          = YES
+GENERATE_XML           = YES
+GENERATE_LATEX         = NO
+
+# Input settings
+INPUT                  = @PROJECT_SOURCE_DIR@/include
+RECURSIVE              = YES
+
+# Example settings
+EXAMPLE_PATH           = @PROJECT_SOURCE_DIR@/examples
+EXAMPLE_PATTERNS       = *.cc
+
+# Documentation settings
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+
+# HTML settings
+HTML_OUTPUT            = html
+
+# XML settings
+XML_OUTPUT             = xml

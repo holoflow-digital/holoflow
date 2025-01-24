@@ -59,7 +59,7 @@ namespace holoflow {
  * benchmarking purposes only.
  *
  * The following example demonstrates how to use the `BatchedSPSCQueue` class:
- * @include example/example.cc
+ * @include examples/batched_spsc_queue/example.cc
  */
 class BatchedSPSCQueue {
 public:

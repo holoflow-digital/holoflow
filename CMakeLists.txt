@@ -14,6 +14,7 @@ option(BUILD_DOCUMENTATIONS "Build documentations" ON)
 find_package(GTest CONFIG REQUIRED)
 find_package(benchmark REQUIRED)
 find_package(Threads REQUIRED)
+find_package(Doxygen)
 
 enable_testing()
 add_subdirectory(src)
