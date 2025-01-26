@@ -12,9 +12,10 @@ option(BUILD_DOCUMENTATIONS "Build documentations" ON)
 
 # Dependencies
 find_package(GTest CONFIG REQUIRED)
-find_package(benchmark REQUIRED)
+find_package(glog CONFIG REQUIRED)
+find_package(benchmark CONFIG REQUIRED)
 find_package(Threads REQUIRED)
-find_package(Doxygen)
+find_package(Doxygen REQUIRED)
 
 enable_testing()
 add_subdirectory(src)

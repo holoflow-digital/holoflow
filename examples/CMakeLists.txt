@@ -1,1 +1,2 @@
 add_subdirectory(batched_spsc_queue)
+add_subdirectory(holoflow)

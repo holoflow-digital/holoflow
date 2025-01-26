@@ -1,6 +1,7 @@
 {
   "dependencies": [
+    "benchmark",
     "gtest",
-    "benchmark"
+    "glog"
   ]
 }
